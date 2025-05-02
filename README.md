@@ -20,6 +20,7 @@ muestra el diagrama del proyecto que estaremos desarrollando.
 ![image](https://github.com/user-attachments/assets/25ed1a95-37b5-4550-85fa-7e051bbae4fd)
 
 ### politicas de ciclo de vida
+se ha condifurado la politica de ciclo de vida en la cual todos los objetos dentro del bucket, se movenran automaticamente a glacier despues de 30 dias de no ser utilizado o frecuentado.
 ![image](https://github.com/user-attachments/assets/25bfdaf8-fdf1-4239-aa0b-91b21a163bab)
 
 
