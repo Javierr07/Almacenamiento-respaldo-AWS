@@ -20,9 +20,17 @@ muestra el diagrama del proyecto que estaremos desarrollando.
 ![image](https://github.com/user-attachments/assets/25ed1a95-37b5-4550-85fa-7e051bbae4fd)
 
 ### politicas de ciclo de vida
-se ha condifurado la politica de ciclo de vida en la cual todos los objetos dentro del bucket, se movenran automaticamente a glacier despues de 30 dias de no ser utilizado o frecuentado.
+se ha configurado la politica de ciclo de vida en la cual todos los objetos dentro del bucket, se movenran automaticamente a glacier despues de 30 dias de no ser utilizado o frecuentado.
 ![image](https://github.com/user-attachments/assets/25bfdaf8-fdf1-4239-aa0b-91b21a163bab)
 
+## Topic a utilizar para las alertas del bucket.
+configuracion general del topic a utilizar, el ecual se muestra el email que recibira las notificaciones
+![image](https://github.com/user-attachments/assets/f01df1eb-ea5c-4c52-aafe-c85e5d7784d8)
+
+
+## politica de acceso
+sele agrego la siguiente politica de acceso a nuestro topic de notificaciones para que permita recibir las notificaciones del bucket.
+![image](https://github.com/user-attachments/assets/1dcbe4a1-3937-49a7-ba43-6901d44ff821)
 
 
 
