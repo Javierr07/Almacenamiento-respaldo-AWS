@@ -3,13 +3,14 @@
 ## Servicios Utilizados 
 - Amazon S3.
 - S3 Glacier
-- AWS CLI
+- AWS Lambda
 - Politicas de Ciclo de vida.
 - Amazon SNS
 
 ## Diagrama
 muestra el diagrama del proyecto que estaremos desarrollando.
-![image](https://github.com/user-attachments/assets/b690a69e-56b3-4dcc-9caa-a645ed7b6fea)
+![image](https://github.com/user-attachments/assets/4055d1d1-0c0a-40e9-b60a-1c8193d2257a)
+
 
 ## Creacion de S3 y sus politicas de ciclo de vida
 
