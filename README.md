@@ -25,6 +25,13 @@ se ha configurado la politica de ciclo de vida en la cual todos los objetos dent
 ![image](https://github.com/user-attachments/assets/25bfdaf8-fdf1-4239-aa0b-91b21a163bab)
 
 ## Topic SNS AlertaS3
+Informacion del topic.
+![image](https://github.com/user-attachments/assets/a40ce992-98a2-4b1a-a1f4-99c2bc9a05d9)
+
+## politica de acceso
+sele agrego la siguiente politica de acceso a nuestro topic AlertaS3 de notificaciones para que permita recibir las notificaciones del bucket.
+![image](https://github.com/user-attachments/assets/1dcbe4a1-3937-49a7-ba43-6901d44ff821)
+
 este primer topic recibira las ntificaciones desde Amazon S3 con el siguiente formato
 ![image](https://github.com/user-attachments/assets/9797a101-7d2a-4888-88a1-1113836389bd)
 
@@ -33,14 +40,16 @@ esta funcion recibe la notificacion desde el topic AlertaS3 para reformatear la 
 ![image](https://github.com/user-attachments/assets/bd05b6ed-aa73-4343-9316-2f0b469d51f9)
 
 ## Topic Email-Usuario
+este topic recibira las notificaciones desde la funcion Lambda la cual formateara la notificacion, el cual se encargara de reenviarlo al Email correspondiente.
+![image](https://github.com/user-attachments/assets/21691cba-263c-4ecc-81db-a3410dc39a44)
+
+Este es el nuevo formato de las notificaciones la cual resalta los datos importante de la notificacion como lo es el evento realizado, el bucket, y la fecha en que se realizo el evento.
+![image](https://github.com/user-attachments/assets/f8a62186-e43d-4b53-acdd-58a905c198a3)
 
 
 
 
 
-## politica de acceso
-sele agrego la siguiente politica de acceso a nuestro topic de notificaciones para que permita recibir las notificaciones del bucket.
-![image](https://github.com/user-attachments/assets/1dcbe4a1-3937-49a7-ba43-6901d44ff821)
 
 
 
