@@ -30,7 +30,7 @@ Informacion del topic.
 
 ## politica de acceso
 sele agrego la siguiente politica de acceso a nuestro topic AlertaS3 de notificaciones para que permita recibir las notificaciones del bucket.
-![image](https://github.com/user-attachments/assets/1dcbe4a1-3937-49a7-ba43-6901d44ff821)
+![image](https://github.com/user-attachments/assets/25adca50-e292-49cd-be63-a64fa4526e37)
 
 este primer topic recibira las ntificaciones desde Amazon S3 con el siguiente formato
 ![image](https://github.com/user-attachments/assets/9797a101-7d2a-4888-88a1-1113836389bd)
