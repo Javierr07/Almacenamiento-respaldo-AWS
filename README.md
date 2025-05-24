@@ -6,10 +6,11 @@
 - AWS Lambda
 - Politicas de Ciclo de vida.
 - Amazon SNS
+- AWS CLI
 
 ## Diagrama
 muestra el diagrama del proyecto que estaremos desarrollando.
-![image](https://github.com/user-attachments/assets/4055d1d1-0c0a-40e9-b60a-1c8193d2257a)
+![image](https://github.com/user-attachments/assets/e69041a7-71f2-459a-b82e-5ad85bcf92f9)
 
 
 ## Creacion de S3 y sus politicas de ciclo de vida
@@ -47,7 +48,8 @@ Este es el nuevo formato de las notificaciones la cual resalta los datos importa
 ![image](https://github.com/user-attachments/assets/f8a62186-e43d-4b53-acdd-58a905c198a3)
 
 
-
+Actualmente el proyecto al realizar las diferentes actividades como carga, restauracion y eliminacion de objetos realiza su respectiva notificacion, las mejoras a realizar es generar scripts para automatizar estas tareas, 
+tambien detacar que uma mejora a implementar es que pueda ser aun mas completo y especifica la notificacion.
 
 
 
